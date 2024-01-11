@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SpaceInvaders.SpriteBase" Collapsed="true">
+    <Position X="7.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAFAAAAQAAAA=</HashCode>
+      <FileName>Sprite\SpriteBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.Sprite" Collapsed="true">
+    <Position X="7.25" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAQAABAAAAAAJABAQAgAIAAAAAAAQBAAABBgAABAAAA=</HashCode>
+      <FileName>Sprite\Sprite.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.SpriteNode" Collapsed="true">
+    <Position X="7.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIBAAAAACAAAAAAAAAQAAAAAAAAAQAAAA=</HashCode>
+      <FileName>Sprite\SpriteNode.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.DLink" Collapsed="true">
+    <Position X="9.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAIAAQAAAAAAAAAABCAA=</HashCode>
+      <FileName>DLink\DLink.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.Font" Collapsed="true">
+    <Position X="9.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAABAAAAAAAAAgAAAAIAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>Font\Font.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.Glyph" Collapsed="true">
+    <Position X="12.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAACAAACBAQAAIAAIAAAAgAAQAAAAABAAAAAAAA=</HashCode>
+      <FileName>Font\Glyph.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.SpriteFont" Collapsed="true">
+    <Position X="9.25" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgYAAAAAAAAABAAAQAAAIAAAAgAIQABAABhgAAAAAAA=</HashCode>
+      <FileName>Sprite\SpriteFont.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.ManagerBase">
+    <Position X="3.75" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAEAAIAAAAhAogAAQAAAAAAgAAACBACAiFA=</HashCode>
+      <FileName>Manager\ManagerBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.Texture" Collapsed="true">
+    <Position X="12" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAABAAAAAAAAAAAAAAAQAAAAABAAAhAAAA=</HashCode>
+      <FileName>Texture\Texture.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.NodeBase" Collapsed="true">
+    <Position X="9.75" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAABAAAAAAAA=</HashCode>
+      <FileName>Node\NodeBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

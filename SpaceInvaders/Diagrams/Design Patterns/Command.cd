@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SpaceInvaders.Command">
+    <Position X="7" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Timer\Command.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.CommandMoveAnimateAliensLoop">
+    <Position X="6.25" Y="5.25" Width="3" />
+    <Members>
+      <Field Name="crProxy1" Hidden="true" />
+      <Field Name="crProxy2" Hidden="true" />
+      <Field Name="MoveDistance" Hidden="true" />
+      <Field Name="MovingRight" Hidden="true" />
+      <Field Name="ocProxy1" Hidden="true" />
+      <Field Name="ocProxy2" Hidden="true" />
+      <Field Name="pGrid" Hidden="true" />
+      <Field Name="pIteratorCrab" Hidden="true" />
+      <Field Name="pIteratorOcto" Hidden="true" />
+      <Field Name="pIteratorSquid" Hidden="true" />
+      <Field Name="poCompIt" Hidden="true" />
+      <Field Name="poDLCrab" Hidden="true" />
+      <Field Name="poDLOcto" Hidden="true" />
+      <Field Name="poDLSquid" Hidden="true" />
+      <Field Name="sqProxy1" Hidden="true" />
+      <Field Name="sqProxy2" Hidden="true" />
+    </Members>
+    <InheritanceLine Type="SpaceInvaders.Command" ManuallyRouted="true">
+      <Path>
+        <Point X="7.75" Y="4.103" />
+        <Point X="7.75" Y="5.126" />
+        <Point X="7.75" Y="5.126" />
+        <Point X="7.75" Y="5.25" />
+      </Path>
+    </InheritanceLine>
+    <AssociationLine Name="pSquid" Type="SpaceInvaders.Sprite">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.116" Y="0" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="pOcto" Type="SpaceInvaders.Sprite">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.104" Y="0.006" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>YAAAAACARAQAAASAAAEAABCAAMAAQRAFABAAAIAACAA=</HashCode>
+      <FileName>Timer\CommandMoveAnimateAliensLoop.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="pSquid" />
+      <Field Name="pCrab" />
+      <Field Name="pOcto" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SpaceInvaders.TimerEvent">
+    <Position X="4" Y="3" Width="1.5" />
+    <Members>
+      <Method Name="ComparePriority" Hidden="true" />
+      <Method Name="Set" Hidden="true" />
+      <Method Name="TimerEvent" Hidden="true" />
+      <Method Name="Wash" Hidden="true" />
+    </Members>
+    <NestedTypes>
+      <Enum Name="SpaceInvaders.TimerEvent.Name" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Timer\TimerEvent.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAABAQBAAAAAAAAAIACQAAAAAAAAAAACAA=</HashCode>
+      <FileName>Timer\TimerEvent.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="pCommand" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SpaceInvaders.Sprite" Collapsed="true">
+    <Position X="10.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAQAABAAAAAAJABAQAgAIAAAAAAAQBAAABBgAABAAAA=</HashCode>
+      <FileName>Sprite\Sprite.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

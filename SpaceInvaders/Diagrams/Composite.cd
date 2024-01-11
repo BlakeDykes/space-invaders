@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SpaceInvaders.Component" Collapsed="true" HideInheritanceLine="true">
+    <Position X="9.5" Y="3" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="SpaceInvaders.Component.Type" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Composite\Component.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAYAAAAAAIgAAAAAAAAAAAAAAAAAAQAAAA=</HashCode>
+      <FileName>Composite\Component.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.Composite">
+    <Position X="11.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAIABAAAAAAAAAAAAAAAQAAAAAI=</HashCode>
+      <FileName>Composite\Composite.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="poDLinkMan" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SpaceInvaders.Leaf">
+    <Position X="8" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Composite\Leaf.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.GameObject" Collapsed="true">
+    <Position X="9.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAABAAAAAAAAAAAAAAAAAAAAAAABgAAEAAAA=</HashCode>
+      <FileName>GameObject\GameObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.AlienBase" Collapsed="true">
+    <Position X="6" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameObject\Aliens\AlienBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.AlienCrab" Collapsed="true">
+    <Position X="6" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameObject\Aliens\AlienCrab.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.AlienOcto" Collapsed="true">
+    <Position X="4.25" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameObject\Aliens\AlienOcto.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.AlienSquid" Collapsed="true">
+    <Position X="7.75" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameObject\Aliens\AlienSquid.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.DLinkManager">
+    <Position X="14.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAIAAAAAAAgAAAAAABgAAAAAAQAACAAAAAQAAAAM=</HashCode>
+      <FileName>DLink\DLinkManager.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="poHead" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SpaceInvaders.DLink">
+    <Position X="18.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAIAAQAAAAAAAAAABCAA=</HashCode>
+      <FileName>DLink\DLink.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.AlienGrid" Collapsed="true">
+    <Position X="10.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAACAAAAAAAAAAAAIAAAAAAAAQAAAAAAAAAAgAA=</HashCode>
+      <FileName>Composite\AlienGrid.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.AlienColumn" Collapsed="true">
+    <Position X="12.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAACAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAgAA=</HashCode>
+      <FileName>Composite\AlienColumn.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.GameObjectNode">
+    <Position X="18.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAACAAAAAABAAAAEAAAgAAAAAAwAAAAABAAAAAAAA=</HashCode>
+      <FileName>GameObject\GameObjectNode.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="poIterator" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SpaceInvaders.CompositeIterator">
+    <Position X="14.25" Y="2.25" Width="1.5" />
+    <AssociationLine Name="pHead" Type="SpaceInvaders.Component">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.689" Y="0.06" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AgBAACAAAAgAhQAAAACAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Composite\CompositeIterator.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="pHead" />
+    </ShowAsAssociation>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

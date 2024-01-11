@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SpaceInvaders.Ship">
+    <Position X="20" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQABEAAAAAAQAAAAABAAAAAAAQAAAIKQAAABAAAAAA=</HashCode>
+      <FileName>GameObject\Ship\Ship.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="State" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SpaceInvaders.Leaf" Collapsed="true">
+    <Position X="20" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Composite\Leaf.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.GameObject" Collapsed="true">
+    <Position X="20" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABQAAAAAEABAAAAAAAAAAAAAAAAAAAAAAABgAAEAAAA=</HashCode>
+      <FileName>GameObject\GameObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.ShipBase" Collapsed="true">
+    <Position X="20" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameObject\Ship\ShipBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.ShipState" HideInheritanceLine="true">
+    <Position X="24.5" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIKQAAAAAEAAAA=</HashCode>
+      <FileName>GameObject\Ship\ShipState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.ShipStateDead">
+    <Position X="22.25" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIKQAAAAAAAAAA=</HashCode>
+      <FileName>GameObject\Ship\ShipStateDead.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.ShipStateMissleFlying">
+    <Position X="24.5" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIKQAAAAAAAAAA=</HashCode>
+      <FileName>GameObject\Ship\ShipStateMissleFlying.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.ShipStateReady">
+    <Position X="26.75" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIKQAAAAAAAAAA=</HashCode>
+      <FileName>GameObject\Ship\ShipStateReady.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.InputManager">
+    <Position X="5.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAGAAAAEAEAAAEFABAAEAgAAQAAAAJAAA=</HashCode>
+      <FileName>Input\InputManager.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="poSubjectSpace" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SpaceInvaders.InputSubject">
+    <Position X="8.75" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAIAAAAAAAAAAIAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>Input\InputSubject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.Subject">
+    <Position X="8.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAIAAAAAAAgAAIAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>Observer\Subject.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="poObservers" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SpaceInvaders.ObserverShoot">
+    <Position X="15.75" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>Input\ObserverShoot.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.SLinkManager">
+    <Position X="12.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAIAAAAAAAgAAAAAABgAAAAAAQAACAAAAAQAAAAM=</HashCode>
+      <FileName>SLink\SLinkManager.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="poHead" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SpaceInvaders.SLink" Collapsed="true">
+    <Position X="15.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAABCAA=</HashCode>
+      <FileName>SLink\SLink.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.Observer" Collapsed="true">
+    <Position X="15.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAQAABAAAAAAAAAAAA=</HashCode>
+      <FileName>Observer\Observer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.Missle" Collapsed="true">
+    <Position X="18" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIQAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameObject\Missle\Missle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.MissleBase" Collapsed="true">
+    <Position X="18" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameObject\Missle\MissleBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

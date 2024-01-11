@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SpaceInvaders.ManagerBase">
+    <Position X="6.75" Y="3.25" Width="2" />
+    <Members>
+      <Method Name="AddToReserve" Hidden="true" />
+      <Method Name="BaseAdd" Hidden="true" />
+      <Method Name="BaseDumpStats" Hidden="true" />
+      <Method Name="BaseGetIterator" Hidden="true" />
+      <Method Name="BaseRemove" Hidden="true" />
+      <Field Name="DeltaGrow" Hidden="true" />
+      <Method Name="DerivedCreateNode" Hidden="true" />
+      <Method Name="ManagerBase" Hidden="true" />
+      <Method Name="ManageStats" Hidden="true" />
+      <Field Name="NumActive" Hidden="true" />
+      <Field Name="NumReserved" Hidden="true" />
+      <Field Name="PeakActive" Hidden="true" />
+      <Field Name="PeakNodes" Hidden="true" />
+      <Field Name="PeakReserved" Hidden="true" />
+      <Method Name="SetReserve" Hidden="true" />
+      <Field Name="TotalNodes" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAEAAIAAAAhAogAAQAAAAAAgAAACBACAiFA=</HashCode>
+      <FileName>Manager\ManagerBase.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="poActive" />
+      <Field Name="poReserved" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SpaceInvaders.SpriteManager">
+    <Position X="6.75" Y="5.25" Width="2" />
+    <Members>
+      <Method Name="Add" Hidden="true" />
+      <Method Name="Create" Hidden="true" />
+      <Field Name="DefaultSpriteColor" Hidden="true" />
+      <Method Name="DerivedCreateNode" Hidden="true" />
+      <Method Name="DumpStats" Hidden="true" />
+      <Method Name="GetInstance" Hidden="true" />
+      <Method Name="GetIterator" Hidden="true" />
+      <Field Name="instance" Hidden="true" />
+      <Field Name="pCompSprite" Hidden="true" />
+      <Method Name="Remove" Hidden="true" />
+      <Method Name="SpriteManager" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAApAAABABIAEAAAAAAAAQAAAI=</HashCode>
+      <FileName>Sprite\SpriteManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.CollectionBase">
+    <Position X="10.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAIAAAAAAAgAAAAAABAAAAAAAQAAAAAAAAQAAAAM=</HashCode>
+      <FileName>Collections\CollectionBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.DLinkManager" Collapsed="true">
+    <Position X="10.25" Y="6.25" Width="1.5" />
+    <AssociationLine Name="poHead" Type="SpaceInvaders.DLink">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.314" Y="0.06" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAIAAIAAAAAAAgAAAAAABgAAAAAAQAACAAAAAQAAAAM=</HashCode>
+      <FileName>DLink\DLinkManager.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="poHead" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SpaceInvaders.DLink">
+    <Position X="13" Y="6.25" Width="1.5" />
+    <Members>
+      <Method Name="ComparePriority" Hidden="true" />
+      <Method Name="DLink" Hidden="true" />
+      <Field Name="pNext" Hidden="true" />
+      <Field Name="pPrev" Hidden="true" />
+      <Method Name="Wash" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAIAAQAAAAAAAAAABCAA=</HashCode>
+      <FileName>DLink\DLink.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.NodeBase">
+    <Position X="13" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAABAAAAAAAA=</HashCode>
+      <FileName>Node\NodeBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.Sprite">
+    <Position X="13" Y="8.5" Width="1.5" />
+    <Members>
+      <Field Name="angle" Hidden="true" />
+      <Method Name="Clear" Hidden="true" />
+      <Field Name="pImage" Hidden="true" />
+      <Field Name="poAzulSprite" Hidden="true" />
+      <Field Name="poColor" Hidden="true" />
+      <Field Name="poRect" Hidden="true" />
+      <Method Name="Render" Hidden="true" />
+      <Method Name="Set" Hidden="true" />
+      <Method Name="Sprite" Hidden="true" />
+      <Field Name="SpriteName" Hidden="true" />
+      <Method Name="SwapImage" Hidden="true" />
+      <Field Name="sx" Hidden="true" />
+      <Field Name="sy" Hidden="true" />
+      <Method Name="Update" Hidden="true" />
+      <Field Name="x" Hidden="true" />
+      <Field Name="y" Hidden="true" />
+    </Members>
+    <NestedTypes>
+      <Enum Name="SpaceInvaders.Sprite.Name" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Sprite\Sprite.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>gAQAABAAAAAAJABAQAgAIAAAAAAAQBAAABBgAABAAAA=</HashCode>
+      <FileName>Sprite\Sprite.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.SpriteBase" Collapsed="true">
+    <Position X="13" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>Sprite\SpriteBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SpaceInvaders.ImageManager">
+    <Position X="2.5" Y="5" Width="1.5" />
+    <Members>
+      <Method Name="Create" Hidden="true" />
+      <Method Name="DumpStats" Hidden="true" />
+      <Method Name="Find" Hidden="true" />
+      <Method Name="GetInstance" Hidden="true" />
+      <Method Name="ImageManager" Hidden="true" />
+      <Field Name="instance" Hidden="true" />
+      <Field Name="pImageCompare" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAIACAAAAAAAAAAAAAAAJAAABABIAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Image\ImageManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.Image" Collapsed="true">
+    <Position X="9.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAABQAAAAAAIAEAAAAARAAAAABAAABAAAA=</HashCode>
+      <FileName>Image\Image.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.ManagerBase" Collapsed="true">
+    <Position X="2.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAEAAIAAAAhAogAAQAAAAAAgAAACBACAiFA=</HashCode>
+      <FileName>Manager\ManagerBase.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="poActive" />
+      <Field Name="poReserved" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SpaceInvaders.CollectionBase" Collapsed="true">
+    <Position X="6" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAIAAAAAAAgAAAAAABAAAAAAAQAAAAAAAAQAAAAM=</HashCode>
+      <FileName>Collections\CollectionBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.DLinkManager" Collapsed="true">
+    <Position X="6" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAIAAAAAAAgAAAAAABgAAAAAAQAACAAAAAQAAAAM=</HashCode>
+      <FileName>DLink\DLinkManager.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="poHead" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SpaceInvaders.DLink" Collapsed="true">
+    <Position X="9.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAIAAQAAAAAAAAAABCAA=</HashCode>
+      <FileName>DLink\DLink.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

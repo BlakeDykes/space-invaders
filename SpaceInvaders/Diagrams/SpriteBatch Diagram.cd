@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SpaceInvaders.SpriteBatchManager">
+    <Position X="6.25" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAACAAAABAAAAAAAIAIABABAgEAAAAAABAAAAAA=</HashCode>
+      <FileName>Sprite\SpriteBatchManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.SpriteBatch">
+    <Position X="12.5" Y="7" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="SpaceInvaders.SpriteBatch.Name" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Sprite\SpriteBatch.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAEAAAAIAIEQIAAgAAAAABABAAACAA=</HashCode>
+      <FileName>Sprite\SpriteBatch.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="pSNodeMan" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SpaceInvaders.ManagerBase" Collapsed="true">
+    <Position X="6.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAEAAIAAAAhAogAAQAAAAAAgIAACBACAiFA=</HashCode>
+      <FileName>Manager\ManagerBase.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="poActive" />
+      <Field Name="poReserved" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SpaceInvaders.DLink" Collapsed="true">
+    <Position X="12.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAIAAQAAAAAAAAAABCAA=</HashCode>
+      <FileName>DLink\DLink.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.DLinkManager" Collapsed="true">
+    <Position X="9.25" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAIAAAAAAAgAAAAAABgAAAAAAQAACAAAAAQAAAAM=</HashCode>
+      <FileName>DLink\DLinkManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.CollectionBase" Collapsed="true">
+    <Position X="9.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAIAAAAAAAgAAAAAABAAAAAAAQAAAAAAAAQAAAAM=</HashCode>
+      <FileName>Collections\CollectionBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.SpriteNodeManager">
+    <Position X="9.25" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAAAIQIAQIAAgAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Sprite\SpriteNodeManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.SpriteNode">
+    <Position X="14.75" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAACAAAAAAAAAQAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Sprite\SpriteNode.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="pSpriteBase" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SpaceInvaders.SpriteBox" Collapsed="true">
+    <Position X="18.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAQAAAAAAAAABABAQAAAIAAAAAAAQBAIABBgAABAAAA=</HashCode>
+      <FileName>Sprite\SpriteBox.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.SpriteBase" Collapsed="true" HideInheritanceLine="true">
+    <Position X="17.75" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>Sprite\SpriteBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.Sprite" Collapsed="true">
+    <Position X="16.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAQAABAAAAAABABAQAgAIAAAAAAAQBAAABBgAABAAAA=</HashCode>
+      <FileName>Sprite\Sprite.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

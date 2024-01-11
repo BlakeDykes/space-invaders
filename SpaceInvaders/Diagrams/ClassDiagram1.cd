@@ -1,0 +1,204 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Azul.Sprite">
+    <Position X="14.25" Y="12.5" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Azul.Texture">
+    <Position X="20.5" Y="9.75" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Azul.Rect">
+    <Position X="17" Y="12" Width="1.5" />
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SpaceInvaders.Image">
+    <Position X="14.75" Y="8.25" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="SpaceInvaders.Image.Name" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Image\Image.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAABQAAAAAAIAEAAAAARAAAAABAAABAAAA=</HashCode>
+      <FileName>Image\Image.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="poRect" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SpaceInvaders.Sprite">
+    <Position X="12.25" Y="8.25" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="SpaceInvaders.Sprite.Name" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Sprite\Sprite.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>gAQAABAAAAAAJABAQAgAIAAAAAAAQBAAABBgAABAAAA=</HashCode>
+      <FileName>Sprite\Sprite.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="pImage" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SpaceInvaders.Texture">
+    <Position X="17.5" Y="8.25" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="SpaceInvaders.Texture.Name" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Texture\Texture.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAABAAAAAAAAAAAAAAAQAAAAABAAAhAAAA=</HashCode>
+      <FileName>Texture\Texture.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="poAzulTexture" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SpaceInvaders.DLink">
+    <Position X="14.75" Y="5.5" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="SpaceInvaders.DLink.PriorityCompResult" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>DLink\DLink.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAIAAQAAAAAAAAAABCAA=</HashCode>
+      <FileName>DLink\DLink.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.NodeBase" Collapsed="true">
+    <Position X="14.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAABAAAAAAAA=</HashCode>
+      <FileName>Node\NodeBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.DLinkManager">
+    <Position X="9.25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAIAAAAAAAgAAAAAABgAAAAAAQAACAAAAAQAAAAM=</HashCode>
+      <FileName>DLink\DLinkManager.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="poHead" />
+      <Field Name="poIterator" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SpaceInvaders.DLinkIterator">
+    <Position X="7" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgBAACAAAAgAhQAAAACAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DLink\DLinkIterator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.IteratorBase" Collapsed="true">
+    <Position X="7" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAACAAAAAABQAAAACAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Iterator\IteratorBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.CollectionBase">
+    <Position X="9.25" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAIAAAAAAAgAAAAAABAAAAAAAQAAAAAAAAQAAAAM=</HashCode>
+      <FileName>Collections\CollectionBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.ManagerBase">
+    <Position X="2.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAEAAIAAAAhAogAAQAAAAAAgAAACBACAiFA=</HashCode>
+      <FileName>Manager\ManagerBase.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="poActive" />
+      <Field Name="poReserved" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SpaceInvaders.SpriteManager">
+    <Position X="0.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAApAAABABIAEAAAAAAAAQAAAI=</HashCode>
+      <FileName>Sprite\SpriteManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.TextureManager">
+    <Position X="2.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAIAAABABIAEAAABAAAAAAAAA=</HashCode>
+      <FileName>Texture\TextureManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.ImageManager">
+    <Position X="4.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIACAAAAAAAAAAAAAAAJAAABABIAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Image\ImageManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.SpriteInstantiator">
+    <Position X="9.25" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAEAAAAAAAAAAABAAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Sprite\SpriteInstantiator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.SpriteAnimator">
+    <Position X="7.25" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAIAAAAAAAAAAAAAABABAAEIAABAAAAAAAAA=</HashCode>
+      <FileName>Sprite\SpriteAnimator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.CommandAnimationLoop">
+    <Position X="0.5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIABAQAAAAAAAgAAIAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Timer\CommandAnimation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.Font" Collapsed="true">
+    <Position X="20.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAABAAAAAAAAAgAAAAIAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>Font\Font.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.SpriteBase" Collapsed="true">
+    <Position X="12.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAFAAAAQAAAA=</HashCode>
+      <FileName>Sprite\SpriteBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.SpriteFont" Collapsed="true">
+    <Position X="10.25" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgYAAAAAAAAABAAAQAAAIAAAAgAIQABAABhgAAAAAAA=</HashCode>
+      <FileName>Sprite\SpriteFont.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.Glyph" Collapsed="true">
+    <Position X="20.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAACAAACBAQAAIAAIAAAAgAAQAAAAABAAAAAAAA=</HashCode>
+      <FileName>Font\Glyph.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

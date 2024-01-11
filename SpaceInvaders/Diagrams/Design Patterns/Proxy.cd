@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SpaceInvaders.SpriteProxy">
+    <Position X="7.75" Y="5.5" Width="1.5" />
+    <Members>
+      <Method Name="Compare" Hidden="true" />
+      <Method Name="Set" Hidden="true" />
+      <Method Name="SpriteProxy" Hidden="true" />
+      <Method Name="SwapImage" Hidden="true" />
+      <Method Name="UpdateLocal" Hidden="true" />
+      <Method Name="Wash" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAQJAAAAAAAAAgAAABAQBAAABBgAAAAAAA=</HashCode>
+      <FileName>Sprite\SpriteProxy.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="pSprite" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SpaceInvaders.SpriteBase" Collapsed="true">
+    <Position X="9" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>Sprite\SpriteBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.Sprite">
+    <Position X="10.25" Y="5.5" Width="1.5" />
+    <Members>
+      <Method Name="Clear" Hidden="true" />
+      <Method Name="Compare" Hidden="true" />
+      <Method Name="Set" Hidden="true" />
+      <Method Name="Sprite" Hidden="true" />
+      <Method Name="SwapImage" Hidden="true" />
+      <Method Name="Wash" Hidden="true" />
+    </Members>
+    <NestedTypes>
+      <Enum Name="SpaceInvaders.Sprite.Name" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Sprite\Sprite.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>gAQAABAAAAAAJABAQAgAIAAAAAAAQBAAABBgAABAAAA=</HashCode>
+      <FileName>Sprite\Sprite.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.DLink" Collapsed="true">
+    <Position X="9" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAIAAQAAAAAAAAAABCAA=</HashCode>
+      <FileName>DLink\DLink.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.DLinkManager">
+    <Position X="5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAIAAAAAAAgAAAAAABgAAAAAAQAACAAAAAQAAAAM=</HashCode>
+      <FileName>DLink\DLinkManager.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="poHead" />
+    </ShowAsAssociation>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

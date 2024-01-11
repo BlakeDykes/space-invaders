@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SpaceInvaders.AlienBase">
+    <Position X="8" Y="7.25" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="SpaceInvaders.AlienBase.AlienType" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>GameObject\Aliens\AlienBase.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameObject\Aliens\AlienBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.AlienCrab">
+    <Position X="8" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameObject\Aliens\AlienCrab.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.AlienOcto">
+    <Position X="6.25" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameObject\Aliens\AlienOcto.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.AlienSquid">
+    <Position X="9.75" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>GameObject\Aliens\AlienSquid.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.AlienGrid">
+    <Position X="14.25" Y="6" Width="1.5" />
+    <Members>
+      <Method Name="AlienGrid" Hidden="true" />
+      <Field Name="localHeight" Hidden="true" />
+      <Field Name="localWidth" Hidden="true" />
+      <Field Name="localX" Hidden="true" />
+      <Field Name="localY" Hidden="true" />
+      <Field Name="MovingRight" Hidden="true" />
+      <Method Name="SetRect" Hidden="true" />
+      <Method Name="Update" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAQAAAACAAAAAAAAAAAIAAAAAAAAAQAAQBAAAAAAgAA=</HashCode>
+      <FileName>Composite\AlienGrid.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="NullSpriteProxy" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SpaceInvaders.AlienColumn" Collapsed="true">
+    <Position X="14.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAIAACAAAAAAAAAAAgAAAAAgAAAACAAQAAAAAAgAA=</HashCode>
+      <FileName>Composite\AlienColumn.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="NullSpriteProxy" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SpaceInvaders.SpriteProxyNull">
+    <Position X="11.5" Y="6" Width="1.5" />
+    <AssociationLine Name="instance" Type="SpaceInvaders.SpriteProxyNull" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="11.938" Y="7.81" />
+        <Point X="11.938" Y="8.06" />
+        <Point X="12.562" Y="8.06" />
+        <Point X="12.562" Y="7.81" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-0.003" Y="0.327" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAABABAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>Sprite\SpriteProxyNull.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="instance" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SpaceInvaders.Leaf" Collapsed="true">
+    <Position X="8" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Composite\Leaf.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.GameObject" Collapsed="true">
+    <Position X="8" Y="4.75" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="SpaceInvaders.GameObject.Name" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>GameObject\GameObject.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAQAAAQAAABAAAQAQAAAAAAAAAAAAAAAAABgAAEAAAA=</HashCode>
+      <FileName>GameObject\GameObject.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="pSpriteProxy" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SpaceInvaders.SpriteProxy" Collapsed="true">
+    <Position X="11.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAQJAAAAAAAAAgAAABAQBAAABBgAAAAAAA=</HashCode>
+      <FileName>Sprite\SpriteProxy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

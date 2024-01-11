@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SpaceInvaders.Command" Collapsed="true">
+    <Position X="11.75" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Timer\Command.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.TimerEvent">
+    <Position X="9" Y="7.25" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="SpaceInvaders.TimerEvent.Name" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Timer\TimerEvent.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAABAQBAAAAAAAAAIACQAAAAAAAAAAACAA=</HashCode>
+      <FileName>Timer\TimerEvent.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="pCommand" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SpaceInvaders.TimerManager">
+    <Position X="5.5" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYAAAAAAAAQABAAAABAJAAABABIAEAAAAAAAAAAAAA=</HashCode>
+      <FileName>Timer\TimerManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.ManagerBase" Collapsed="true">
+    <Position X="5.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAEAAIAAAAhAogAAQAAAAAAgIAACBACAiFA=</HashCode>
+      <FileName>Manager\ManagerBase.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="poActive" />
+      <Field Name="poReserved" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SpaceInvaders.DLink" Collapsed="true">
+    <Position X="9" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAIAAQAAAAAAAAAABCAA=</HashCode>
+      <FileName>DLink\DLink.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.CollectionBase" Collapsed="true">
+    <Position X="9" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAIAAAAAAAgAAAAAABAAAAAAAQAAAAAAAAQAAAAM=</HashCode>
+      <FileName>Collections\CollectionBase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.Sprite" Collapsed="true">
+    <Position X="15.25" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAQAABAAAAAAJABAQAgAIAAAAAAAQBAAABBgAABAAAA=</HashCode>
+      <FileName>Sprite\Sprite.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.DLinkManager" Collapsed="true" HideInheritanceLine="true">
+    <Position X="15.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAIAAAAAAAgAAAAAABgAAAAAAQAACAAAAAQAAAAM=</HashCode>
+      <FileName>DLink\DLinkManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpaceInvaders.CommandMoveAnimateAliensLoop">
+    <Position X="11.75" Y="8.5" Width="1.5" />
+    <AssociationLine Name="poDLSquid" Type="SpaceInvaders.DLinkManager">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.11" Y="-0.315" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="pCrab" Type="SpaceInvaders.Sprite">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="0.152" Y="-0.242" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>IAAAAAAABAQAAAQAAAEAABCAAMAAQQAEABAAAAAACAA=</HashCode>
+      <FileName>Timer\CommandMoveAnimateAliensLoop.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="poDLCrab" />
+      <Field Name="poDLOcto" />
+      <Field Name="poDLSquid" />
+      <Field Name="pOcto" />
+      <Field Name="pSquid" />
+      <Field Name="pCrab" />
+    </ShowAsAssociation>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
